@@ -2,7 +2,7 @@
 curl -X POST \
   https://api.sandbox.midtrans.com/v2/charge \
   -H 'Accept: application/json'\
-  -H 'Authorization: Basic <YOUR SERVER KEY ENCODED in Base64>' \
+  -H 'Authorization: Basic SB-Mid-client-2dnztsuJA_eWo8OQ' \
   -H 'Content-Type: application/json' \
   -d '{
   "payment_type": "credit_card",
