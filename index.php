@@ -5,7 +5,7 @@ $server_key = 'SB-Mid-server-tzzEHOP-lpV8zOELcgVxLhKz';
 $is_production = false;
 
 $api_url = $is_production ? 
-  // 'https://app.midtrans.com/snap/v1/transactions' : 
+  'https://app.midtrans.com/snap/v1/transactions' : 
   'https://app.sandbox.midtrans.com/snap/v1/transactions';
 
 
