@@ -5,8 +5,9 @@ $server_key = 'SB-Mid-server-tzzEHOP-lpV8zOELcgVxLhKz';
 $is_production = false;
 
 $api_url = $is_production ? 
-  'https://app.midtrans.com/snap/v1/transactions' : 
+  // 'https://app.midtrans.com/snap/v1/transactions' : 
   'https://app.sandbox.midtrans.com/snap/v1/transactions';
+
 
 // Check if request doesn't contains `/charge` in the url/path, display 404
 if( !strpos($_SERVER['REQUEST_URI'], '/charge') ) {
@@ -58,4 +59,3 @@ function chargeAPI($api_url, $server_key, $request_body){
   );
   return $result;
 }
-?>
